@@ -1,0 +1,17 @@
+body {
+    background-color: #afcfce;
+    font-family: 'Nunito', sans-serif;
+}
+
+main {
+    border: 0.2vw solid #021c1e;
+    background-color: mintcream;
+    border-radius: 1vw;
+    /*    padding: 3vw 3vw;*/
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+fieldset {
+    margin: 2.5vw 5vw;
+}

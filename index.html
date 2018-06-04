@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     </head>
 
     <body>
@@ -38,17 +40,17 @@
 
                 <fieldset id="like">
                     <legend>What features do you like most?</legend>
-                    <input id="one" type="checkbox" name="items_2" value="usability">
+                    <input id="one" type="checkbox" name="like" value="usability">
                     <label for="one">Usability</label><br>
-                    <input id="two" type="checkbox" name="items_2" value="two">
-                    <label for="two">Choice Two</label><br>
-                    <input id="three" type="checkbox" name="items_2" value="three">
-                    <label for="three">Choice Three</label>
+                    <input id="two" type="checkbox" name="like" value="speed">
+                    <label for="two">Speed</label><br>
+                    <input id="three" type="checkbox" name="like" value="design">
+                    <label for="three">Design</label>
                 </fieldset>
 
 
                 <fieldset>
-                    <legend> <label for="number" id="number-label">From 0 to 5 how do you like our app.</label> </legend>
+                    <legend> <label for="number" id="number-label">From 0 to 5 how do you like our app?</label> </legend>
                     <input type="number" id="number" min="0" max="5" name="likeApp_0_5" value="1" placeholder="Enter quantity" />
                 </fieldset>
 
@@ -72,7 +74,7 @@
 
                 <fieldset>
                     <legend><label for="comments">Please let us know your thoughts about our app:</label></legend>
-                    <textarea id="comments" rows="3" cols="50" wrap="hard" maxlength="250" name="Comments" placeholder=""></textarea>
+                    <textarea id="comments" rows="3" maxlength="250" name="Comments" placeholder=""></textarea>
                 </fieldset>
 
                 <fieldset>
