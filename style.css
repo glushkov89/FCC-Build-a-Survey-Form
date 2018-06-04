@@ -1,17 +1,38 @@
-body {
-    background-color: #afcfce;
-    font-family: 'Nunito', sans-serif;
+* {
+    box-sizing: border-box;
 }
 
-main {
+body {
+    background-color: #b7b8b6;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3vw;
+}
+
+input,
+option {
+    font-size: 1.3vw;
+}
+
+main,
+header {
     border: 0.2vw solid #021c1e;
     background-color: mintcream;
     border-radius: 1vw;
-    /*    padding: 3vw 3vw;*/
     margin-left: 20vw;
     margin-right: 20vw;
+    margin-top: 5vw;
 }
 
 fieldset {
     margin: 2.5vw 5vw;
+    border: 0.05vw solid #021c1e;
+    border-radius: 0.5vw;
+}
+
+form:first-child {
+    margin-top: 4.5vw;
+}
+
+textarea {
+    width: 100%;
 }
