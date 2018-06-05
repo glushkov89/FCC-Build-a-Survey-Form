@@ -3,14 +3,21 @@
 }
 
 body {
-    background-color: #b7b8b6;
+    background-color: #ccd86f;
     font-family: 'Nunito', sans-serif;
     font-size: 1.3vw;
 }
 
-input,
+fieldset>input,
+fieldset>label,
+fieldset>div,
+textarea,
 option {
-    font-size: 1.3vw;
+    font-size: 1.15vw;
+}
+
+p {
+    font-size: 1.5vw;
 }
 
 main,
@@ -25,7 +32,7 @@ header {
 
 fieldset {
     margin: 2.5vw 5vw;
-    border: 0.05vw solid #021c1e;
+    border: 0.1vw solid #021c1e;
     border-radius: 0.5vw;
 }
 
@@ -35,4 +42,25 @@ form:first-child {
 
 textarea {
     width: 100%;
+}
+
+#submit {
+    font-size: 1.3vw;
+    background-color: silver;
+    border: 0.15vw solid green;
+    border-radius: 0.2vw;
+    width: 20vw;
+    height: 2vw;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 4.5vw;
+    display: flex;
+    justify-content: center;
+    font-size: 1vw;
 }
